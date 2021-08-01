@@ -1,2 +1,2 @@
-# IntroJavascripKeepCoding
+# IntroJavascriptKeepCoding
 Práctica introducción a JS 
