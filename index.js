@@ -109,7 +109,7 @@ play_offs.play_matches();
 
 display_playoff_phase_matches(play_offs.divisions[0].group_matches);
 
-display_playoff_phase_header('Third and Fourth Place');
+display_playoff_phase_header('FINALS');
 
 var winners = [];
 
