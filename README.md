@@ -14,4 +14,4 @@ El programa también presenta la fase de los playoffs con sus diferentes rondas:
 
 La práctica fue realizada usando exclusivamente Javascript. No se emplea ninguna librería o API de terceros. 
 
-Para correr la práctica solo es necesario abrir una terminal y ejecutar "node index.js".
+Para correr la práctica solo es necesario abrir una terminal, movernos a la carpeta raíz de la applicación y ejectuar el comando "node index.js".
