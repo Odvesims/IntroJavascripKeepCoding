@@ -12,4 +12,4 @@ El programa también presenta la fase de los playoffs con sus diferentes rondas:
 * 3er y 4to Lugar
 * Final
 
-
+La práctica fue realizada usando exclusivamente Javascript. No se emplea ninguna librería o API de terceros. 
