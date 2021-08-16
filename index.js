@@ -11,6 +11,7 @@ import {
   display_round_robin_matches, 
   get_round_robin_qualified_teams, 
   display_playoff_header,
+  display_playoff_qualified_teams,
   display_playoff_phase_header,
   display_playoff_phase_matches,
   display_tournament_winner } from "./functions/index.js";
@@ -48,6 +49,7 @@ play_offs.play_matches();
 let round_of_sixteen_qualified_teams = play_offs.get_play_offs_qualified_teams(2);
 display_playoff_header();
 display_playoff_phase_header('Round of 16');
+display_playoff_qualified_teams(play_offs.divisions[0].group_matches);
 display_playoff_phase_matches(play_offs.divisions[0].group_matches);
 
 play_offs.divisions[0] = {name: 'Quartet Finals', group_teams: [], matched_teams: [], group_matches: []};

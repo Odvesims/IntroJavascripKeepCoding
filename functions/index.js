@@ -103,6 +103,14 @@ export function display_round_robin_matches(round_robin, total_journeys, matches
   }
 }
 
+export function display_playoff_qualified_teams(qualified_teams){
+  qualified_teams.map(match => {
+    console.log(match.matches[0].home.name);
+    console.log(match.matches[0].visitor.name);
+  })
+  console.log(' ');
+}
+
 export function display_playoff_phase_matches(group_matches){
   group_matches.forEach(group_match => {
     let match_display = "";
